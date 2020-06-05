@@ -38,6 +38,16 @@
         width: 100%;
         position: relative;
     }
+    .Banner h1{
+        display: inline-block;
+        font-style: italic;
+        position: absolute;
+        top: 22%;
+        left: 20%;
+        font-size: 45px;
+        color: #2d5970;
+        z-index: 1;
+    }
 }
 @media screen and (min-width: 1824px){
     .Banner{
@@ -48,7 +58,7 @@
         display: inline-block;
         font-style: italic;
         position: absolute;
-        top: 18%;
+        top: 22%;
         left: 23%;
         font-size: 80px;
         color: #2d5970;

@@ -13,7 +13,7 @@ class App extends Component {
     }
     render(){
         return(
-            <Container style={{padding: "0px"}} fluid>
+            <Container fluid style={{margin: "0", padding: "0"}}>
                 <Header />
                 <NavBar />
                 <Banner />

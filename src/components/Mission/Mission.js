@@ -20,33 +20,33 @@ const Mission = () => {
                         </p>
                         <p>Our team maintains committed to continuing education and implements leading edge dental technology to deliver uncompromising quality and care to our patients. We, the Springs Village Dentistry team, value you as a person, and our goal is to nurture a compassionate and trusting environment so that coming to the dentist can be a comfortable and pleasant experience for everyone.</p>
                     </Col>
-                    <Col className="d-inline-block" xs={12} md={6} lg={2}>
+                    <Col className="d-inline-block" xs={12} md={6} lg={4}>
                         <img src={diana}/>
                         <h4>Dr. Diana Molta, DDS</h4>
                     </Col>
-                    <Col className="d-inline-block" xs={12} md={6} lg={2}>
+                    <Col className="d-inline-block" xs={12} md={6} lg={4}>
                         <img src={ben}/>
                         <h4>Dr. Benjamin Moore, DDS</h4>
                     </Col>
                 </div>
             </Row>
             <Row className={classes.Care}>
-                <Col xs={12}  md={6}>
+                <Col xs={12}  md={6} lg={3}>
                     <img src={three_teeth}/>
                     <h4>Family Dentistry</h4>
                     <p>We offer quality dental care to patients of all ages.</p>
                 </Col>
-                <Col xs={12}  md={6}>
+                <Col xs={12}  md={6} lg={3}>
                     <img src={implants}/>
                     <h4>Dental Implants</h4>
                     <p>Try a natural-looking, permanent solution for missing teeth.</p>
                 </Col>
-                <Col xs={12} md={6}>
+                <Col xs={12} md={6} lg={3}>
                     <img src={smiles}/>
                     <h4>Six Month Smiles</h4>
                     <p>Straighten your smile faster than ever with accelerated braces.</p>
                 </Col>
-                <Col xs={12} md={6}>
+                <Col xs={12} md={6} lg={3}>
                     <img src={payments}/>
                     <h4>Affordable Payments</h4>
                     <p>Our many payment options work with a variety of budgets.</p>

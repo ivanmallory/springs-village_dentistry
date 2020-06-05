@@ -18,16 +18,21 @@
     color: #2d5970!important;
     font-weight: bold;
 }
+.NavDropdown2 a{
+    color: #2d5970!important;
+    font-weight: bold;
+}
 @media screen and (min-width: 1024px){
     .NavBar .Phone{
         display: none;
     }
     .NavBar a{
         padding: 15px!important;
-        
+        font-size: 20px;
     }
     .NavLink {
         margin: 0 5px!important;
+        font-size: 20px;
     }
     .NavDropdown{
         margin: 0 5px!important;

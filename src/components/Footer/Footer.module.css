@@ -29,12 +29,17 @@
 }
 @media screen and (min-width:1024px){
     .Footer{
-        height: 550px;
+        height: 490px;
     }
     .Footer img{
         display: inline-block;
         width: 1000px;
         margin: 3rem;
         border-radius: 5px;
+    }
+}
+@media screen and (min-width: 1824px){
+    .Footer img{
+        width: 1400px;
     }
 }

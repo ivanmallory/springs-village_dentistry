@@ -9,3 +9,8 @@
     width: 300px;
     margin: 0px;
 }
+@media screen and (min-width:1824px){
+    .Header img{
+        width: 500px;
+    }
+}

@@ -6,7 +6,7 @@ import team from '../../static/dental_team.jpg';
 const Footer = () => {
     return(
         <Row className={classes.Footer}>
-            <Col xs={12} md={6}>
+            <Col xs={12} md={6} lg={{span: 3, offset: 3}}>
                 <div className={classes.Contact}>
                     <h4>Springs Village Dentistry</h4>
                     <div className={classes.Underline}></div>
@@ -20,7 +20,7 @@ const Footer = () => {
                     <h5>Holly Springs, NC 27540</h5>
                 </div>
             </Col>
-            <Col xs={12} md={6}>
+            <Col xs={12} md={6} lg={3}>
                 <div className={classes.Hours}>
                     <h4>Office Hours</h4>
                     <div className={classes.Underline}></div>
