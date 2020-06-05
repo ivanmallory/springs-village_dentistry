@@ -1,6 +1,38 @@
 .NavBar {
-    background-color: #5091a6;
+    background-color: #224456;
+}
+.NavBar .Toggler{
+    background-color: #2d5970;
+    outline: none;
+}
+.NavBar .Toggler span {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 .NavLink{
     color: white!important;
+}
+.NavDropdown a{
+    color: white!important;
+}
+.NavDropdown .Item{
+    color: #2d5970!important;
+    font-weight: bold;
+}
+@media screen and (min-width: 1024px){
+    .NavBar .Phone{
+        display: none;
+    }
+    .NavBar a{
+        padding: 15px!important;
+        
+    }
+    .NavLink {
+        margin: 0 5px!important;
+    }
+    .NavDropdown{
+        margin: 0 5px!important;
+    }
+    .NavBar a:hover{
+        color: turquoise!important;
+    }
 }

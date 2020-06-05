@@ -11,3 +11,47 @@
     width: 325px;
     margin-top: 2rem;
 }
+.Banner video{
+    display: none;
+}
+.Banner h1{
+    display: none;
+}
+@media screen and (min-width: 768px){
+    .Banner{
+        height: 400px;
+    }
+    .Banner img{
+        width: 550px;
+    }
+}
+@media screen and (min-width: 1024px){
+    .Banner{
+        overflow: hidden;
+        height: 600px;
+    }
+    .Banner img{
+        display: none;
+    }
+    .Banner video{
+        display: inline-block;
+        width: 100%;
+        position: relative;
+    }
+}
+@media screen and (min-width: 1824px){
+    .Banner{
+        overflow: hidden;
+        height: 900px;
+    }
+    .Banner h1{
+        display: inline-block;
+        font-style: italic;
+        position: absolute;
+        top: 18%;
+        left: 23%;
+        font-size: 80px;
+        color: #2d5970;
+        z-index: 1;
+    }
+}

@@ -25,9 +25,6 @@
     border: 5px solid #5091a6;
     box-shadow: 2px 2px 2px 2px #224456;
 }
-.Mission .Col{
-    margin-top: 2rem;
-}
 .Care{
     height: 1100px;
     text-align: center;
@@ -38,4 +35,17 @@
 .Care h4{
     margin-top: 1rem;
     text-transform: uppercase;
+}
+@media screen and (min-width: 768px){
+    .Mission{
+        height: 800px;
+    }
+    .Care{
+        height: 550px;
+    }
+}
+@media screen and (min-width: 1024px){
+    .Mission p{
+        width: 600px;
+    }
 }

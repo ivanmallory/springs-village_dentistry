@@ -5,6 +5,7 @@ import Banner from '../components/Banner/Banner';
 import Mission from '../components/Mission/Mission';
 import {Container} from 'react-bootstrap';
 import Competition from './Competition/Competition';
+import Footer from '../components/Footer/Footer';
 
 class App extends Component {
     state ={
@@ -18,6 +19,7 @@ class App extends Component {
                 <Banner />
                 <Mission />
                 <Competition />
+                <Footer />
             </Container>
         )
     }
