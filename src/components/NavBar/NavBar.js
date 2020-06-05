@@ -11,7 +11,7 @@ const NavBar = () => {
             <a href="" style={{color:"white"}} className={styles.Phone}><FontAwesomeIcon icon={faPhoneVolume} size= '2x'/></a>
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mx-auto">
-                    <Nav.Link className={styles.NavLink} href="#home">Home</Nav.Link>
+                    <Nav.Link className={styles.NavLink} href="/">Home</Nav.Link>
                     <NavDropdown className={styles.NavDropdown} title="New Patients">
                         <NavDropdown.Item className={styles.Item} href="#action/3.1">Your Visit</NavDropdown.Item>
                         <NavDropdown.Item className={styles.Item}href="#action/3.3">Dental Wellness Club</NavDropdown.Item>

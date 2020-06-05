@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Header from '../components/Header/Header'
 import NavBar from '../components/NavBar/NavBar'
-import Banner from '../components/Banner/Banner';
+import HomeBanner from './HomeBanner/HomeBanner';
 import Mission from '../components/Mission/Mission';
 import {Container} from 'react-bootstrap';
 import Competition from './Competition/Competition';
@@ -16,7 +16,7 @@ class App extends Component {
             <Container fluid style={{margin: "0", padding: "0"}}>
                 <Header />
                 <NavBar />
-                <Banner />
+                <HomeBanner />
                 <Mission />
                 <Competition />
                 <Footer />
