@@ -13,8 +13,8 @@ const NavBar = () => {
                 <Nav className="mx-auto">
                     <Nav.Link className={styles.NavLink} href="/">Home</Nav.Link>
                     <NavDropdown className={styles.NavDropdown} title="New Patients">
-                        <NavDropdown.Item className={styles.Item} href="#action/3.1">Your Visit</NavDropdown.Item>
-                        <NavDropdown.Item className={styles.Item}href="#action/3.3">Dental Wellness Club</NavDropdown.Item>
+                        <NavDropdown.Item className={styles.Item} href="/your_visit">Your Visit</NavDropdown.Item>
+                        <NavDropdown.Item className={styles.Item}href="/dental_wellness_club">Dental Wellness Club</NavDropdown.Item>
                     </NavDropdown>
                     <NavDropdown className={styles.NavDropdown} title="Services">
                         <NavDropdown drop="right" className={styles.NavDropdown2} href="#action/3.1" title="General">

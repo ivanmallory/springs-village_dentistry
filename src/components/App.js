@@ -1,11 +1,8 @@
 import React, { Component } from 'react';
-import Header from '../components/Header/Header'
-import NavBar from '../components/NavBar/NavBar'
-import HomeBanner from './HomeBanner/HomeBanner';
-import Mission from '../components/Mission/Mission';
-import {Container} from 'react-bootstrap';
-import Competition from './Competition/Competition';
-import Footer from '../components/Footer/Footer';
+import Home from './Home'
+import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom'
+import Visit from './Visit'
+import DWC from './DWC'
 
 class App extends Component {
     state ={
@@ -13,15 +10,20 @@ class App extends Component {
     }
     render(){
         return(
-            <Container fluid style={{margin: "0", padding: "0"}}>
-                <Header />
-                <NavBar />
-                <HomeBanner />
-                <Mission />
-                <Competition />
-                <Footer />
-            </Container>
-        )
+            <Router>
+                <Switch>
+                    <Route path="/your_visit">
+                        <Visit />
+                    </Route>
+                    <Route path="/dental_wellness_club">
+                        <DWC />
+                    </Route>
+                    <Route path="/">
+                        <Home />
+                    </Route>
+                </Switch>
+            </Router>
+        );
     }
 }
 
