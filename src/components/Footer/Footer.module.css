@@ -18,6 +18,7 @@
 .Footer p{
     font-style: italic;
     margin: 0px;
+    text-align: center;
 }
 .Footer img{
     display: none;
