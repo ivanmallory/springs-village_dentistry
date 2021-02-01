@@ -8,23 +8,23 @@ const VisitInfo = () => {
     return(
         <div>
             <Row className={classes.VisitInfo}>
-                <Col xs={12} md={12} lg={12} xl={12}>
+                <Col xs={12} md={12} lg={12} xl={12} className={classes.Intro}>
                     <h3>Springs Village Dentistry Patient Information</h3>
                     <div className={classes.Underline}></div>
                     <p>Springs Village Dentistry welcomes both adults and children of all ages to visit us for high quality dental care. Work hard to make visiting the dentist as convenient and comfortable as possible, and we take pride in offering personalized care for the families of our community.</p>
                     <a href=""><button>Contact Us</button></a>
                 </Col>
-                <Col xs={12} md={12} lg={12} xl={12} style={{marginBottom: "20px"}}>
+                <Col xs={12} md={12} lg={12} xl={{span: 6, offset: 1}} className={classes.Visit}>
                     <h3>Your Visit</h3>
                     <p>Preparing for your first visit to Springs Village Dentistry? We look forward to seeing you sometime soon and welcoming you into our local dental practice.</p>
                 </Col>
-                <Col xs={12} md={6} lg={6} xl={6}>
+                <Col xs={12} md={6} lg={6} xl={{span: 4, offset: 2}} className={classes.Scheduling}>
                     <h5>Convenient Hours &amp; Scheduling</h5>
                     <p>We want to make getting dental care as convenient as possible. We know you probably have enough on your plate already before factoring in the dentist! Our office has extended office hours (8AM to 6PM) so you can come in before or after work and school, or even on Saturdays!</p>
                     <p>We also offer the option of family block scheduling, which is a way to book all of your family’s appointments on the same day. We’ll either see you all at the same time or one right after another, letting you take care of routine dental visits in one swoop.</p>
                     <p>If you have a dental emergency, please call us ASAP. At Springs Village Dentistry, we leave room in our days for unexpected cases just like this so that we’re able to provide same-day emergency care.</p>
                 </Col>
-                <Col xs={12} md={6} lg={6} xl={6}>
+                <Col xs={12} md={6} lg={6} xl={4} className={classes.Expectations}>
                     <h5>What to Expect</h5>
                     <p>Here's what you can expect at your first visit to Springs Village Dentistry:</p>
                     <ul>

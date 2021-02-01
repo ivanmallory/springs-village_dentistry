@@ -15,7 +15,6 @@ h3{
     width: 50%;
     border-bottom: 2px solid white;
     display: inline-block;
-    justify-content: center;
 }
 .VisitInfo p{
     text-align: left;
@@ -62,20 +61,24 @@ ul li{
         text-align: left;
     }
 }
-@media screen and (min-width: 1024px){
-    .Amenities p{
-
-    }
-}
 @media screen and (min-width: 1824px){
-    .VisitInfo p{
-        width: 600px;
-        text-align: left;
+    .Intro p{
+        width: 700px;
+    }
+    .Visit p {
+        width: 500px;
+    }
+    .Scheduling p{
+        width: 500px;
+    }
+    .Expectations p{
+        text-align: center;
+    }
+    .Expectations ul {
+        width: 500px;
+        margin: auto;
     }
     h3{
-        text-align: left;
-    }
-    .Underline{
-        justify-content: left;
+        text-align: center;
     }
 }

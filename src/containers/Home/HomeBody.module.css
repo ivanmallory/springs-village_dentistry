@@ -1,0 +1,136 @@
+.HomeBody{
+    text-align: center;
+    width: 100%;
+    background-color: #2d5970;
+    color: #f9f9f9;
+}
+.Mission{
+    justify-content: center;
+    padding: 2rem;
+}
+.Mission h1{
+    padding-top: 20px;
+    font-size: 35px;
+}
+.Underline{
+    color: #ffffff;
+    width: 50%;
+    border-bottom: 2px solid white;
+    display: inline-block;
+}
+.Mission p{
+    margin: 1rem auto;
+    padding: 15px;  
+}
+.Card{
+    background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 2px 2px #224456; 
+    border-radius: 5px;
+}
+.Doctors{
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+.Doctors img{
+    display: inline-block;
+    margin: 30px 50px;
+    border: 5px solid #5091a6;
+    box-shadow: 2px 2px 2px 2px #224456;
+}
+.Care{
+    text-align: center;
+    background-color: #5091a6;
+    color: white;
+    padding: 2rem;
+}
+.Care img{
+    transition: 0.5s all ease-in-out;
+}
+.Care h4{
+    margin-top: 1rem;
+    text-transform: uppercase;
+}
+.Competition{
+    background-color: #2d5970;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+.Competition h1{
+    padding-top: 20px;
+    font-size: 35px;
+}
+.Welcome{
+    display: none;
+}
+.Competition p{
+    margin: 1rem auto;
+    padding: 15px;
+    text-align: left;
+}
+.Services {
+    text-align: left;
+    list-style: inside;
+    display: inline-block;
+    padding: 0px;
+}
+.Icon{
+    justify-content: center;
+    padding: 2rem;
+}
+.Icon img{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 30px;
+}
+.Icon h5{
+    margin-top: 1rem;
+}
+@media screen and (min-width: 768px){
+    .Care{
+        padding-top: 5rem;
+        height: 600px;
+    }
+    .Competition p{
+        max-width: 500px;
+    }
+    .Welcome{
+        display: inline-block;
+    }
+    .Competition .Underline{
+        color: #ffffff;
+        width: 50%;
+        border-bottom: 2px solid white;
+        display: inline-block;
+    }
+}
+@media screen and (min-width: 1024px){
+    .Mission p{
+        width: 600px;
+    }
+    .Underline{
+        width: 25%;
+    }
+    .Care{
+        height: 400px;
+    }
+    .About {
+        margin-top: 8rem;
+    }
+    .Care img:hover{
+        transform: scale(1.2);
+    }
+}
+@media screen and (min-width: 1824px){
+    .Doctors img{
+        width: 350px;
+    }
+    .Welcome{
+        display: inline-block;
+    }
+    .Underline{
+        width: 50%;
+    }
+}

@@ -1,10 +1,12 @@
 .Footer{
     background-color: #fbfbfb;
     text-align: center;
+    justify-content: center;
 }
 .Footer h4{
     color: #2d5970;
     margin-top: 2rem;
+    font-size: 16px;
 }
 .Footer .Underline{
     width: 80%;
@@ -14,9 +16,11 @@
 }
 .Footer h5{
     margin: 1rem;
+    font-size: 14px;
 }
 .Footer p{
     font-style: italic;
+    font-size: 14px;
     margin: 0px;
     text-align: center;
 }
@@ -30,16 +34,43 @@
 }
 @media screen and (min-width:1024px){
     .Footer{
-        height: 490px;
+        height: auto;
+        background-color: #cfc9af;
+        padding-top: 1rem;
+    }
+    .Footer h4{
+        color: #2d5970;
+        font-size: 22px;
+    }
+    .Footer h5{
+        font-size: 20px;
+    }
+    .Footer p{
+        font-size: 20px;
     }
     .Footer img{
         display: inline-block;
         width: 1000px;
         margin: 3rem;
         border-radius: 5px;
+        box-shadow: 0 8px 16px 4px rgba(0,0,0,0.2);
+    }
+    .Contact, .Hours{
+        background-color: #e8e8e8;
+        padding: 15px!important;
+        margin: 15px;
+        box-shadow: 0 8px 16px 4px rgba(0,0,0,0.2);
+        border: 1px solid #f0f0f0;
+        height: 500px;
     }
 }
 @media screen and (min-width: 1824px){
+    .Footer{
+        height: auto;
+    }
+    .Footer .Underline{
+        width: 50%;
+    }
     .Footer img{
         width: 1400px;
     }

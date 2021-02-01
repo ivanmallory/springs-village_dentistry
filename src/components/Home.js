@@ -1,26 +1,29 @@
 import React, { Component } from 'react';
 import Header from '../components/Header/Header'
-import NavBar from '../components/NavBar/NavBar'
-import HomeBanner from './HomeBanner/HomeBanner';
-import Mission from '../components/Mission/Mission';
-import {Container} from 'react-bootstrap';
-import Competition from './Competition/Competition';
+import NavBar from '../new_components/Navigation/NavBar/NavBar';
+import HomeBanner from '../new_components/HomeBanner/HomeBanner';
 import Footer from '../components/Footer/Footer';
+import Auxiliary from '../hoc/Auxiliary';
+import HomeBody from '../containers/Home/HomeBody';
 
 class Home extends Component {
     state ={
-
+        showBio: false
+    }
+    showBioHandler = (props) => {
+        this.setState({
+            showBio: true
+        })
     }
     render(){
         return(
-            <Container fluid style={{margin: "0", padding: "0"}}>
+            <Auxiliary style={{margin: "0", padding: "0"}}>
                 <Header />
                 <NavBar />
                 <HomeBanner />
-                <Mission />
-                <Competition />
+                <HomeBody bioReveal={this.showBioHandler} />
                 <Footer />
-            </Container>
+            </Auxiliary>
         )
     }
 }

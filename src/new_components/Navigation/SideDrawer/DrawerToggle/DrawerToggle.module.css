@@ -1,0 +1,36 @@
+.ToggleButton{
+    width: 40px;
+    height: 40px;
+    margin: 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    transition: all .5s ease-in-out;
+}
+.Hamburger{
+    width: 20px;
+    background: #fff;
+    border-radius: 5px;
+    height: 3px;
+    transition: all .5s ease-in-out;
+}
+.Hamburger::before,
+.Hamburger::after{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 3px;
+    background: #fff;
+    border-radius: 5px;
+
+}
+.Hamburger::before{
+    transform: translateY(-8px);
+}
+.Hamburger::after{
+    transform: translateY(8px);
+}

@@ -1,0 +1,10 @@
+.Banner{
+    display: block;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+}
+.Banner img{
+    position: absolute;
+    left: 31%;
+}

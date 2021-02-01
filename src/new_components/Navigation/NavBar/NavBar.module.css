@@ -1,0 +1,24 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.NavBar{
+    background-color: #2d5970;
+    width: 100%;
+    display: block;
+}
+.Mobile{
+    display: inline-block;
+}
+.DesktopOnly{
+    display: none;
+}
+@media screen and (min-width: 1024px){
+    .DesktopOnly{
+        display: block;
+    }
+    .Mobile{
+        display: none;
+    }
+}

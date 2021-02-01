@@ -1,14 +1,14 @@
 import React from 'react';
 import {Row, Col} from 'react-bootstrap';
 import classes from './Footer.module.css';
-import team from '../../static/dental_team.jpg';
+import team from '../../static/team_photo.jpg';
 
 const Footer = () => {
     return(
         <Row className={classes.Footer}>
-            <Col xs={12} md={6} lg={{span: 3, offset: 3}}>
+            <Col xs={6} md={6} lg={3}>
                 <div className={classes.Contact}>
-                    <h4>Springs Village Dentistry</h4>
+                    <h4>Contact Us</h4>
                     <div className={classes.Underline}></div>
                     <h5>T: (919)446-3947</h5>
                     <h5>F: (919)825-3130</h5>
@@ -16,11 +16,11 @@ const Footer = () => {
                     <h5>Diana Molta, DDS</h5>
                     <h5>Benjamin Moore, DDS</h5>
                     <br/>
-                    <h5>349 Earnie Lane</h5>
-                    <h5>Holly Springs, NC 27540</h5>
+                    <p>349 Earnie Lane</p>
+                    <p>Holly Springs, NC 27540</p>
                 </div>
             </Col>
-            <Col xs={12} md={6} lg={3}>
+            <Col xs={6} md={6} lg={3}>
                 <div className={classes.Hours}>
                     <h4>Office Hours</h4>
                     <div className={classes.Underline}></div>
@@ -34,9 +34,7 @@ const Footer = () => {
                     <h5>Saturday: By Appointment</h5>
                 </div>
             </Col>
-            <Col lg={12}>
-                <img src={team} />
-            </Col>
+            <img src={team} />
         </Row>
     )
 }
