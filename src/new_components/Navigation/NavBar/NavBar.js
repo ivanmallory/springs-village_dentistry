@@ -5,10 +5,16 @@ import classes from './NavBar.module.css';
 import DrawerToggle from '../SideDrawer/DrawerToggle/DrawerToggle';
 
 const NavBar = (props) => {
+    if(props.showSideDrawer){
+        console.log("Toggle Open")
+    }
+    else{
+        console.log("Toggle Closed")
+    }
     return(
         <div className={classes.NavBar}>
             <div className={classes.Mobile}> 
-                <DrawerToggle />
+                <DrawerToggle clicked={props.showSideDrawer} />
             </div>
             <div className={classes.DesktopOnly}>
                 <NavLinks />

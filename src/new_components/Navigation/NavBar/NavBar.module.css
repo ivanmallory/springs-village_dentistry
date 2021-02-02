@@ -7,6 +7,8 @@
     background-color: #2d5970;
     width: 100%;
     display: block;
+    position: sticky;
+    top: 0;
 }
 .Mobile{
     display: inline-block;
@@ -14,7 +16,11 @@
 .DesktopOnly{
     display: none;
 }
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 500px){
+    .NavBar{
+        position: static;
+        top: 0;
+    }
     .DesktopOnly{
         display: block;
     }

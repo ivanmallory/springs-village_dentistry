@@ -5,42 +5,39 @@ ul, li, a{
 .NavLinks ul{
     list-style: none;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 16px;
     margin: 0;
 }
 .TopLevel {
     text-decoration: none;
     position: relative;
-    text-align: center;
 }
 .TopLevel li{
-    display: inline-block;
+    display: block;
     position: relative;
     padding: 15px;
-}
-.TopLevel li:hover > a{
-    background-color: #3f7384;
 }
 .TopLevel li a{
     color: white;
     text-decoration: none;
-    padding: 16px;
-}
-.TopLevel li:hover .DropDown{
     display: block;
 }
+.TopLevel li:hover .DropDown{
+    height: 120px;
+    display: inline-block;
+}
+
 .DropDown{
-    position: absolute;
     display: none;
-    top: 3.7rem;
-    left: 15px;
-    width: max-content;
+    height: 0px;
     background-color: #2d5970;
-    z-index: 2;
+    z-index: 201;
+    transition: 0.5 ease-in-out;
 }
 .DropDown li{
     display: block;
-    padding: 0px;
+    padding: 15px;
+
 }
 .DropDown li a{
     display: block;
@@ -68,4 +65,74 @@ ul, li, a{
 .SlideOut li:hover a{
     color: white;
     background-color: #5294aa;
+}
+@media screen and (min-width: 1024px){
+    .NavLinks ul{
+        list-style: none;
+        text-transform: uppercase;
+        font-size: 20px;
+        margin: 0;
+    }
+    .TopLevel {
+        text-decoration: none;
+        position: relative;
+        text-align: center;
+    }
+    .TopLevel li{
+        display: inline-block;
+        position: relative;
+        padding: 15px;
+    }
+    .TopLevel li:hover > a{
+        background-color: #3f7384;
+    }
+    .TopLevel li a{
+        color: white;
+        text-decoration: none;
+        padding: 16px;
+    }
+    .TopLevel li:hover .DropDown{
+        display: block;
+    }
+    .DropDown{
+        position: absolute;
+        display: none;
+        top: 3.7rem;
+        left: 15px;
+        width: max-content;
+        background-color: #2d5970;
+        z-index: 2;
+    }
+    .DropDown li{
+        display: block;
+        padding: 0px;
+    
+    }
+    .DropDown li a{
+        display: block;
+        color: white;
+        margin: 0px;
+    }
+    .DropDown li:hover{
+        background-color: #3f7384;
+    }
+    .DropDown li:hover a{
+        color: white;
+        background-color: #3f7384;
+    }
+    .DropDown li:hover .SlideOut{
+        display: block;
+    }
+    .SlideOut{
+        position: absolute;
+        display: none;
+        left: 100%;
+        top: 0;
+        width: max-content;
+        z-index: 2;
+    }
+    .SlideOut li:hover a{
+        color: white;
+        background-color: #5294aa;
+    }
 }
