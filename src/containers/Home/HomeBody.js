@@ -64,7 +64,7 @@ const HomeBody = (props) => {
                 <Row className={classes.Competition}>
                     <Col className={classes.Welcome} xs={12} md={12} lg={3} xl={3}>
                         <h1>Welcome to Springs Village Dentistry,</h1>
-                        <h1 style={{fontStyle:"italic", color: "#5091a6"}}>Your Holly Springs Dentist!</h1>
+                        <h1 style={{fontStyle:"italic", color: "#5294aa"}}>Your Holly Springs Dentist!</h1>
                         <div className={classes.Underline}></div>
                         <p>Drs. Diana Molta and Benjamin Moore can’t wait to welcome you to our Holly Springs dental office. We’ve designed this office with our patients’ comfort and convenience in mind. From the warm and welcoming décor to the state-of-the-art technology, everything about this office is here to ensure that our patients feel refreshed, relaxed, and confident in the care they receive. We are a family dentist office, which means our team sees patients of all ages, so bring in the whole family for preventive, restorative, or cosmetic care. No matter your needs, we can help you get a beautiful, healthy smile you’ll love showing off.</p>
                         <h4>Holly Springs General Dentistry</h4>

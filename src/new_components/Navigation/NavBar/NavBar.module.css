@@ -2,13 +2,14 @@
     padding: 0px;
     margin: 0px;
 }
-
 .NavBar{
     background-color: #2d5970;
     width: 100%;
     display: block;
-    position: sticky;
-    top: 0;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    z-index: 4;
 }
 .Mobile{
     display: inline-block;
@@ -16,10 +17,9 @@
 .DesktopOnly{
     display: none;
 }
-@media screen and (min-width: 500px){
+@media screen and (min-width: 1050px){
     .NavBar{
         position: static;
-        top: 0;
     }
     .DesktopOnly{
         display: block;

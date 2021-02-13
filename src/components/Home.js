@@ -6,6 +6,7 @@ import Footer from '../components/Footer/Footer';
 import Auxiliary from '../hoc/Auxiliary';
 import HomeBody from '../containers/Home/HomeBody';
 import SideDrawer from '../new_components/Navigation/SideDrawer/SideDrawer';
+import team from '../static/team_photo.jpg';
 
 class Home extends Component {
     state ={
@@ -26,7 +27,6 @@ class Home extends Component {
         return(
             <Auxiliary style={{margin: "0", padding: "0"}}>
                 <Header />
-                <SideDrawer />
                 <NavBar showSideDrawer={this.sideDrawerToggleHandler} />
                 <HomeBanner />
                 <HomeBody bioReveal={this.showBioHandler} />

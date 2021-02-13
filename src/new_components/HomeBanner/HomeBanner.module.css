@@ -42,7 +42,7 @@
         display: inline-block;
         font-style: italic;
         position: absolute;
-        top: 15%;
+        top: 18%;
         text-align: center;
         width: 100%;
         font-size: 45px;
@@ -55,7 +55,7 @@
         height: 900px;
     }
     .HomeBanner h1{
-        top: 20%;
+        top: 22%;
         font-size: 80px;
     }
 }
