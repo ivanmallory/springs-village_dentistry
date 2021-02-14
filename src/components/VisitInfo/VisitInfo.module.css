@@ -24,19 +24,24 @@ h3{
     padding: 10px 20px;
     color: white;
     text-decoration: none;
-    background-color: turquoise;
+    background-color: #44c7ee;
     border-radius: 5px;
     border: none;
 }
 .VisitInfo button:hover{
     background-color: lightgray;
     color: black;
-    border: 1px solid turquoise;
-    box-shadow: 1px turquoise;
+    border: 1px solid#44c7ee;
+    box-shadow: 1px #44c7ee;
 }
 ul li{
     text-align: left;
     padding: 0 15px;
+}
+.Card{
+    background-color: #e8e8e8;
+    padding: 10px;
+    color: black;
 }
 .Amenities{
     color: white;

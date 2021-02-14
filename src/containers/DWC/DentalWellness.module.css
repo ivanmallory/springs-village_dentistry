@@ -1,0 +1,27 @@
+.DentalWellness{
+    background-color: #2d5970;
+    color: white;
+    text-align: center;
+}
+h1{
+    text-transform: uppercase;
+}
+.Underline{
+    margin: 10px 0px;
+    color: #ffffff;
+    width: 50%;
+    border-bottom: 2px solid white;
+    display: inline-block;
+}
+ul{
+    margin: auto;
+}
+button{
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #44c7ee;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
