@@ -1,6 +1,7 @@
 import React from 'react';
 import {Row, Col} from 'react-bootstrap';
 import classes from './DentalWellness.module.css';
+import cleaning from '../../static/cleanings-icon.png';
 
 const DentalWellness = (props) => {
     return(
@@ -24,6 +25,37 @@ const DentalWellness = (props) => {
                         <li>No claim submission forms</li>
                         <li>No rejected claims</li>
                     </ul>
+                </Col>
+            </Row>
+            <Row className={classes.CompServices}>
+                <Col xs={12}>
+                    <h1>Complimentary Services</h1>
+                    <p>As a Dental Wellness Club member, you’ll receive certain preventive services at no extra cost. These are the dental services included with our typical adult membership:</p>
+                </Col>
+                <Col xs={12}>
+                    <img src={cleaning} />
+                    <h5>2 Cleanings per Year</h5>
+                </Col>
+                <Col xs={12}>
+                    <h5>2 Periodic Exams Per Year</h5>
+                </Col>
+                <Col xs={12}>
+                    <h5>Necessary Digital X-Rays</h5>
+                </Col>
+                <Col xs={12}>
+                    <h5>Emergency Exam</h5>
+                </Col>
+                <Col xs={12}>
+                    <h5>Oral Cancer Screenings</h5>
+                </Col>
+                <Col xs={12}>
+                    <h5>Fluoride Treatment</h5>
+                </Col>
+            </Row>
+            <Row>
+                <Col xs={12}>
+                    <h1>Discounted Services</h1>
+                    <p>On top of those complimentary dental services, members also get a major discount on additional treatments at our office. You’ll receive 10% off the following services:</p>
                 </Col>
             </Row>
         </div>
